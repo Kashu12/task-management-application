@@ -1,0 +1,45 @@
+.auth-container {
+    display: flex;
+    height: 100vh;
+}
+
+.auth-illustration {
+    background-color: #00a7c1;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.auth-welcome img {
+    max-width: 200px;
+}
+
+.auth-form {
+    width: 50%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input-group {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.register-button {
+    background-color: #00a7c1;
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    cursor: pointer;
+}
+
+.toggle-password {
+    cursor: pointer;
+    margin-top: 0.5rem;
+}
